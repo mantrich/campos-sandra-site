@@ -193,6 +193,9 @@ svg { width: 22px; height: 22px; flex: 0 0 auto; stroke: currentColor; stroke-wi
 
 .scroll-cue { position: absolute; bottom: 2rem; left: 50%; width: 1px; height: 34px; background: rgb(247 244 237 / 24%); }
 .scroll-cue span { display: block; width: 1px; height: 14px; background: var(--gold); }
+@media (max-width: 599px) {
+  .scroll-cue { display: none; }
+}
 .noscript-note { position: absolute; inset: auto 1rem 1rem; font-size: .75rem; text-align: center; }
 
 dialog { color: var(--paper); border: 1px solid rgb(207 180 124 / 25%); background: var(--ink); }
